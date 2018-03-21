@@ -2,7 +2,7 @@
     "x":0,
     "type":"View",
     "selectedBox":1,
-    "selecteID":4,
+    "selecteID":8,
     "props":{"width":600,"sceneColor":"#000000","height":400},
     "nodeParent":-1,
     "label":"View",
@@ -28,7 +28,7 @@
         {
             "x":15,
             "type":"Button",
-            "props":{"y":239,"x":277,"width":211,"skin":"comp/button.png","sizeGrid":"0,0,0,0","rotation":0,"labelSize":50,"labelFont":"SimSun","labelColors":"#a2b546","label":"我的你","height":118},
+            "props":{"y":236,"x":71,"width":211,"skin":"comp/button.png","sizeGrid":"0,0,0,0","rotation":0,"labelSize":50,"labelFont":"SimSun","labelColors":"#a2b546","label":"我的你","height":118},
             "nodeParent":1,
             "label":"Button",
             "isOpen":true,
@@ -36,6 +36,19 @@
             "isAniNode":true,
             "hasChild":false,
             "compId":4,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
+            "type":"ProgressBar",
+            "props":{"y":298,"x":347,"width":212,"skin":"comp/progress.png","pivotY":1,"pivotX":8,"height":14},
+            "nodeParent":1,
+            "label":"ProgressBar",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":8,
             "child":[
                 ]
         }],
